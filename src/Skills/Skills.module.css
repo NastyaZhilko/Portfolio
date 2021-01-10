@@ -1,5 +1,4 @@
 .skillsBlock {
-    min-height: 100vh;
     background-color: #c0ec74;
 }
 
@@ -19,4 +18,10 @@
     justify-content: space-between;
     display: flex;
     flex-wrap: wrap;
+}
+@media screen and (max-width: 937px){
+    .skills{
+        flex-direction:  column;
+        align-items: center;
+    }
 }
