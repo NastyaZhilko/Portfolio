@@ -4,13 +4,16 @@
 
 }
 
+
 .text {
     width: 300px;
     background-color: whitesmoke;
+    margin: 10px;
 }
 
 .photo {
     width: 300px;
     height: 400px;
     background-color: whitesmoke;
+    margin: 10px;
 }
