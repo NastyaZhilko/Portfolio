@@ -1,0 +1,23 @@
+@import '../../common/styles/sass/variables';
+@import '../../common/styles/sass/mixins';
+
+.burgerNav {
+    width: 300px;
+    background-color: #4a4a4a;
+    @include flex(column, space-between, center, nowrap);
+    a {
+        @include text($titleFontFamily, 16px, 1.2, 400);
+        color: $textColor;
+        cursor: pointer;
+        &:hover{
+            text-decoration: none;
+            color: $primaryColor;
+        }
+    }
+    .active{
+        color: $primaryColor;
+    }
+    @media screen and (min-width: 400px) {
+        display: none;
+    }
+}

@@ -6,15 +6,17 @@ import Title from "../common/components/title/Title";
 import reactIcon from "./../assets/images/react-icon.svg";
 import jsIcon from "./../assets/images/js-icon.svg";
 import htmlIcon from "./../assets/images/html-icon.svg";
+import Fade from "react-reveal/Fade";
 
 const Skills=()=> {
     let react = reactIcon;
     let js = jsIcon;
     let html = htmlIcon;
     return (
-        <div className={style.skillsBlock}>
+        <div id='skills' className={style.skillsBlock}>
             <div className={style.container}>
                 <Title text={'Skills'}/>
+                <Fade>
                 <div className={style.skills}>
                     <Skill title={'JS'}
                            icon={js}
@@ -26,6 +28,7 @@ const Skills=()=> {
                            icon={react}
                            description={'detailed description of skills'}/>
                 </div>
+                    </Fade>
             </div>
         </div>
     );
