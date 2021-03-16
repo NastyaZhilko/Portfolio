@@ -5,12 +5,13 @@
     justify-content: flex-end;
     align-items: center;
     width: 100%;
-    position: fixed
+    position: fixed;
+    .container{
+        width:80%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: flex-end;
+    }
 }
-.container{
-    width:80%;
-    margin: 0 auto;
-    display: flex;
-    justify-content: flex-end;
-}
+
 
