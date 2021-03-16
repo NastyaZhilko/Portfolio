@@ -1,19 +1,14 @@
-.nav{
-    border: 1px solid red;
-    width: 300px;
-    display: flex;
-    justify-content: space-between;
-    .inactive{
-        margin-right: 10px;
-        color: #fff;
-        text-transform: lowercase;
-        font-size: 18px;
-        font-family: 'Montserrat', sans-serif;
-    }
-    .active{
-        color: #fff;
-        font-size: 18px;
-        font-family: 'Montserrat', sans-serif;
+@import '../common/styles/sass/variables';
+@import '../common/styles/sass/mixins';
 
+.nav {
+    width: 340px;
+    @include flex(row, space-between, stretch, nowrap);
+    a {
+        @include text($titleFontFamily, 16px, 1.2, 400);
+        color: $textColor;
+        cursor: pointer;
     }
+
+
 }

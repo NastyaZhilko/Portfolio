@@ -6,7 +6,7 @@ const Nav = () => {
 
         <div className={style.nav}>
 
-            <a href="" className={style.inactive} activeClassName={style.active}>About me</a>
+            <a href="">Main</a>
             <a href="">Skills</a>
             <a href="">Projects</a>
             <a href="">Contacts</a>

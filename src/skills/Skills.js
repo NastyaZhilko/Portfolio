@@ -13,18 +13,18 @@ const Skills=()=> {
     let html = htmlIcon;
     return (
         <div className={style.skillsBlock}>
-            <div className={`${styleContainer.container} ${style.skillsContainer}`}>
+            <div className={style.container}>
                 <Title text={'Skills'}/>
                 <div className={style.skills}>
                     <Skill title={'JS'}
                            icon={js}
-                           description={'Подробное описание навыков '}/>
+                           description={'detailed description of skills'}/>
                     <Skill title={'CSS'}
                            icon={html}
-                           description={'Подробное описание навыков'}/>
+                           description={'detailed description of skills'}/>
                     <Skill title={'React'}
                            icon={react}
-                           description={'Подробное описание навыков'}/>
+                           description={'detailed description of skills'}/>
                 </div>
             </div>
         </div>

@@ -1,36 +1,25 @@
 @import '../../common/styles/sass/variables';
 @import '../../common/styles/sass/mixins';
+
 .project {
   width: 450px;
   background: $bgColor;
-  display: flex;
-  flex-direction: column;
+  margin-top: 30px;
+  @include flex(column, flex-start, stretch, nowrap);
   .image {
     height: 300px;
-    background-color: #e2c4f5;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-size: cover;
-    background-position: center;
+    @include flex(row, center, center, nowrap);
+    @include bgSettings();
     position: relative;
-    background-repeat: no-repeat;
     &::before {
       position: absolute;
       content: '';
-      background-color: black;
       top: 0;
       bottom: 0;
       left: 0;
       right: 0;
-      opacity: 0.3;
-    }
-    .button {
-      background-color: $primaryColor;
-      padding: 10px 20px;
-      position: relative;
-      z-index: 1;
-      color:$textColor
+      opacity: 0.4;
+      background-color: black;
     }
   }
   .projectInfo {
@@ -42,7 +31,6 @@
     }
     .description {
       @include text($textFontFamily, 14px, 1.8, 400);
-      font-weight: 400;
     }
   }
 }
