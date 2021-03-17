@@ -33,11 +33,9 @@ const Main = () => {
                         />
                     </div>
                     <Tilt className="Tilt" options={{max: 25}}>
-                        <div className="Tilt-inner">
                             <div className={style.photo}>
                                 <div className={style.image}></div>
                             </div>
-                        </div>
                     </Tilt>
 
                 </div>

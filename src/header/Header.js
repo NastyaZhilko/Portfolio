@@ -8,7 +8,6 @@ const Header = () => {
         <div className={style.header}>
                 <Nav/>
                 <BurgerNav/>
-
         </div>
     )
 }
