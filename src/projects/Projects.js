@@ -19,10 +19,17 @@ const Projects = () => {
                 <Title text={'Projects'}/>
                 <Fade>
                     <div className={style.projects}>
-                        <Project style={socialNetwork} title={'Social Network'} description={'short description'}/>
-                        <Project style={todolist} title={'Todolist'}
-                                 description={'short description short description ' +
-                                 'short description short description short description '}/>
+                        <Project style={socialNetwork}
+                                 title={'Social Network'}
+                                 hrefDemo={'https://nastyazhilko.github.io/SocialNetwork/'}
+                                 hrefCode={'https://github.com/NastyaZhilko/simple-react-homeworks-master'}
+                                 description={'A social networking service. An online platform for people to build ' +
+                                 'social networks or social relationships with other people.'}/>
+                        <Project style={todolist}
+                                 title={'Todolist'}
+                                 hrefDemo={'https://nastyazhilko.github.io/Todolist/'}
+                                 hrefCode={'https://github.com/NastyaZhilko/Todolist'}
+                                 description={'An app for Task Management, Project Management, Productivity. '}/>
                     </div>
                 </Fade>
             </div>
