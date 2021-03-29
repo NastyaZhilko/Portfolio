@@ -1,17 +1,19 @@
 import React from 'react';
 import style from './Skills.module.scss';
-import styleContainer from '../common/styles/Container.module.css'
 import Skill from "./skill/Skill";
 import Title from "../common/components/title/Title";
 import reactIcon from "./../assets/images/react-icon.svg";
 import jsIcon from "./../assets/images/js-icon.svg";
 import htmlIcon from "./../assets/images/html-icon.svg";
+import tsIcon from "./../assets/images/ts-icon.svg";
 import Fade from "react-reveal/Fade";
 
 const Skills=()=> {
     let react = reactIcon;
     let js = jsIcon;
     let html = htmlIcon;
+    let ts = tsIcon;
+
     return (
         <div id='skills' className={style.skillsBlock}>
             <div className={style.container}>
@@ -20,13 +22,17 @@ const Skills=()=> {
                 <div className={style.skills}>
                     <Skill title={'JS'}
                            icon={js}
-                           description={'detailed description of skills'}/>
+                           description={'Data Types, Functions, Loops, Currying, Closure, This, Array Methods, ' +
+                           'Recursion, EventLoop, Promise, Async-Await...'}/>
                     <Skill title={'CSS'}
                            icon={html}
-                           description={'detailed description of skills'}/>
+                           description={'Flexbox, SASS, CSS3, CSS-Modules, Styled Components...'}/>
                     <Skill title={'React'}
                            icon={react}
-                           description={'detailed description of skills'}/>
+                           description={'SPA, Functional components, Hooks, Material-UI, Forms, Routes, Pagination...'}/>
+                    <Skill title={'TypeScript'}
+                           icon={ts}
+                           description={'Migrate projects from JS to TS, Generics, typeof, ReturnType, Enum...'}/>
                 </div>
                     </Fade>
             </div>

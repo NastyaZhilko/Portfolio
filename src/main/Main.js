@@ -29,7 +29,7 @@ const Main = () => {
                         <span>Hi There</span>
                         <span>I am Anastasia<span>Zhilko</span></span>
                         <ReactTypingEffect
-                            text={"Frontend developer."}
+                            text={"Front-end developer."}
                         />
                     </div>
                     <Tilt className="Tilt" options={{max: 25}}>
