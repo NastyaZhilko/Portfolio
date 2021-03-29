@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.d06b54cb.chunk.css",
-    "main.js": "/Portfolio/static/js/main.96210500.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.96210500.chunk.js.map",
-    "runtime-main.js": "/Portfolio/static/js/runtime-main.63107a7f.js",
-    "runtime-main.js.map": "/Portfolio/static/js/runtime-main.63107a7f.js.map",
+    "main.css": "/Portfolio/static/css/main.7b3e8f3f.chunk.css",
+    "main.js": "/Portfolio/static/js/main.4833039b.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.4833039b.chunk.js.map",
+    "runtime-main.js": "/Portfolio/static/js/runtime-main.7e4e3732.js",
+    "runtime-main.js.map": "/Portfolio/static/js/runtime-main.7e4e3732.js.map",
     "static/js/2.2bcbc37e.chunk.js": "/Portfolio/static/js/2.2bcbc37e.chunk.js",
     "static/js/2.2bcbc37e.chunk.js.map": "/Portfolio/static/js/2.2bcbc37e.chunk.js.map",
-    "static/js/3.87fc93b4.chunk.js": "/Portfolio/static/js/3.87fc93b4.chunk.js",
-    "static/js/3.87fc93b4.chunk.js.map": "/Portfolio/static/js/3.87fc93b4.chunk.js.map",
+    "static/js/3.7177c043.chunk.js": "/Portfolio/static/js/3.7177c043.chunk.js",
+    "static/js/3.7177c043.chunk.js.map": "/Portfolio/static/js/3.7177c043.chunk.js.map",
     "index.html": "/Portfolio/index.html",
-    "static/css/main.d06b54cb.chunk.css.map": "/Portfolio/static/css/main.d06b54cb.chunk.css.map",
+    "static/css/main.7b3e8f3f.chunk.css.map": "/Portfolio/static/css/main.7b3e8f3f.chunk.css.map",
     "static/js/2.2bcbc37e.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.2bcbc37e.chunk.js.LICENSE.txt",
+    "static/media/codewars.b4ad724f.svg": "/Portfolio/static/media/codewars.b4ad724f.svg",
     "static/media/facebook.aa967ec0.svg": "/Portfolio/static/media/facebook.aa967ec0.svg",
     "static/media/html-icon.2b8208b2.svg": "/Portfolio/static/media/html-icon.2b8208b2.svg",
     "static/media/js-icon.288a1817.svg": "/Portfolio/static/media/js-icon.288a1817.svg",
@@ -21,12 +22,13 @@
     "static/media/socialNet.13779c8b.jpg": "/Portfolio/static/media/socialNet.13779c8b.jpg",
     "static/media/telegram.6ef96d2a.svg": "/Portfolio/static/media/telegram.6ef96d2a.svg",
     "static/media/todolist.82b37d5f.jpg": "/Portfolio/static/media/todolist.82b37d5f.jpg",
+    "static/media/ts-icon.40ac4ca3.svg": "/Portfolio/static/media/ts-icon.40ac4ca3.svg",
     "static/media/vk.798c92a5.svg": "/Portfolio/static/media/vk.798c92a5.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.63107a7f.js",
+    "static/js/runtime-main.7e4e3732.js",
     "static/js/2.2bcbc37e.chunk.js",
-    "static/css/main.d06b54cb.chunk.css",
-    "static/js/main.96210500.chunk.js"
+    "static/css/main.7b3e8f3f.chunk.css",
+    "static/js/main.4833039b.chunk.js"
   ]
 }
