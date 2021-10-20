@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.e03eebdb.chunk.css",
-    "main.js": "/Portfolio/static/js/main.b45b986a.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.b45b986a.chunk.js.map",
+    "main.css": "/Portfolio/static/css/main.5dbfd71b.chunk.css",
+    "main.js": "/Portfolio/static/js/main.03bc3e0c.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.03bc3e0c.chunk.js.map",
     "runtime-main.js": "/Portfolio/static/js/runtime-main.157fb1eb.js",
     "runtime-main.js.map": "/Portfolio/static/js/runtime-main.157fb1eb.js.map",
     "static/js/2.64e63fb5.chunk.js": "/Portfolio/static/js/2.64e63fb5.chunk.js",
@@ -10,14 +10,12 @@
     "static/js/3.a90ed88d.chunk.js": "/Portfolio/static/js/3.a90ed88d.chunk.js",
     "static/js/3.a90ed88d.chunk.js.map": "/Portfolio/static/js/3.a90ed88d.chunk.js.map",
     "index.html": "/Portfolio/index.html",
-    "static/css/main.e03eebdb.chunk.css.map": "/Portfolio/static/css/main.e03eebdb.chunk.css.map",
+    "static/css/main.5dbfd71b.chunk.css.map": "/Portfolio/static/css/main.5dbfd71b.chunk.css.map",
     "static/js/2.64e63fb5.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.64e63fb5.chunk.js.LICENSE.txt",
-    "static/media/codewars.b4ad724f.svg": "/Portfolio/static/media/codewars.b4ad724f.svg",
-    "static/media/facebook.aa967ec0.svg": "/Portfolio/static/media/facebook.aa967ec0.svg",
     "static/media/html-icon.2b8208b2.svg": "/Portfolio/static/media/html-icon.2b8208b2.svg",
     "static/media/js-icon.288a1817.svg": "/Portfolio/static/media/js-icon.288a1817.svg",
     "static/media/linkedin.2e1db5e2.svg": "/Portfolio/static/media/linkedin.2e1db5e2.svg",
-    "static/media/Main.module.scss": "/Portfolio/static/media/photo.6bd2a8d8.jpg",
+    "static/media/Main.module.scss": "/Portfolio/static/media/photo.b4888f03.png",
     "static/media/react-icon.661ad6ba.svg": "/Portfolio/static/media/react-icon.661ad6ba.svg",
     "static/media/socialNet.13779c8b.jpg": "/Portfolio/static/media/socialNet.13779c8b.jpg",
     "static/media/telegram.6ef96d2a.svg": "/Portfolio/static/media/telegram.6ef96d2a.svg",
@@ -28,7 +26,7 @@
   "entrypoints": [
     "static/js/runtime-main.157fb1eb.js",
     "static/js/2.64e63fb5.chunk.js",
-    "static/css/main.e03eebdb.chunk.css",
-    "static/js/main.b45b986a.chunk.js"
+    "static/css/main.5dbfd71b.chunk.css",
+    "static/js/main.03bc3e0c.chunk.js"
   ]
 }
