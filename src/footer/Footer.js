@@ -2,11 +2,9 @@ import React from 'react';
 import style from './Footer.module.scss';
 import Title from "../common/components/title/Title";
 import telegramIcon from "../assets/images/telegram.svg"
-import facebookIcon from "./../assets/images/facebook.svg"
 import likedinIcon from "./../assets/images/linkedin.svg"
 import vkIcon from "./../assets/images/vk.svg"
 import gitHubIcon from "../assets/images/gitHubIcon.png"
-import codewarsI from "../assets/images/codewars.svg"
 
 const Footer = () => {
     return (

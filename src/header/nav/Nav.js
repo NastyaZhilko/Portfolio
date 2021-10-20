@@ -6,8 +6,6 @@ const Nav = () => {
     return (
 
         <div className={style.nav}>
-
-           {/* <a href='#main'>Main</a>*/}
             <Link
                 activeClass={style.active}
                 to="main"
@@ -16,7 +14,6 @@ const Nav = () => {
                 offset={1}
                 duration={500}
             >Main</Link>
-         {/*   <a href='#skills'>Skills</a>*/}
             <Link
                 activeClass={style.active}
                 to="skills"
@@ -25,7 +22,6 @@ const Nav = () => {
                 offset={1}
                 duration={500}
             >Skills</Link>
-            {/*<a href='#projects'>Projects</a>*/}
             <Link
                 activeClass={style.active}
                 to="projects"
@@ -34,7 +30,6 @@ const Nav = () => {
                 offset={1}
                 duration={500}
             >Projects</Link>
-            {/*<a href='#contacts'>Contacts</a>*/}
             <Link
                 activeClass={style.active}
                 to="contacts"
